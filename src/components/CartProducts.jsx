@@ -26,7 +26,7 @@ function CartProducts({ singleproduct }) {
         <div>{singleproduct.title}</div>
         <div>Price ${singleproduct.price}</div>
 
-        <div className="flex gap-2">
+        <div className="md:flex md:gap-2 flex">
           <button
             onClick={() => changeQty(singleproduct.id, singleproduct.qty - 1)}
           >

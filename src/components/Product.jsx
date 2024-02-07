@@ -30,7 +30,7 @@ function Product({ singleproduct }) {
   }
 
   return (
-    <div className="w-[250px] h-[350px] border-2 flex justify-center items-center flex-col">
+    <div className="w-[100%] h-[400px] border-2 flex justify-center items-center flex-col">
       <div>
         <img
           src={singleproduct.thumbnail}
