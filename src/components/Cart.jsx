@@ -14,7 +14,7 @@ function Cart() {
           Cart Total $
           {cart.reduce((acc, currVal) => acc + currVal.price * currVal.qty, 0)}
         </div>
-        <div>
+        <div className="bg-sky-300">
           Made by{" "}
           <a
             href="https://github.com/dsmotepalli"
